@@ -1,0 +1,30 @@
+[
+    {
+        "code": 1,
+        "name": "AIR JORDAN",
+        "price": 14999,
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sequi!",
+        "longDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores doloremque id, quam labore repellat ipsam nesciunt sed nam? Consectetur eveniet nostrum dolorum, quod in quidem sit blanditiis et laudantium soluta!"
+    },
+    {
+        "code": 2,
+        "name": "AIR FORCE 1",
+        "price": 9999,
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sequi!",
+        "longDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores doloremque id, quam labore repellat ipsam nesciunt sed nam? Consectetur eveniet nostrum dolorum, quod in quidem sit blanditiis et laudantium soluta!" 
+    },
+    {
+        "code": 3,
+        "name": "JORDAN MJ 23",
+        "price": 6999,
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sequi!",
+        "longDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores doloremque id, quam labore repellat ipsam nesciunt sed nam? Consectetur eveniet nostrum dolorum, quod in quidem sit blanditiis et laudantium soluta!"
+    },
+    {
+        "code": 4,
+        "name": "AIR MAX",
+        "price": 6999,
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sequi!",
+        "longDesc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores doloremque id, quam labore repellat ipsam nesciunt sed nam? Consectetur eveniet nostrum dolorum, quod in quidem sit blanditiis et laudantium soluta!"
+    }
+]

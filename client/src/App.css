@@ -1,0 +1,340 @@
+
+
+body {
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #111;
+  color: #fff;
+  padding: 0 0px;
+}
+
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-divs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brandName {
+  font-weight: 300;
+  font-variant: small-caps;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.brandLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.brandLink:hover {
+  color: #fff;
+}
+
+.discountSeason {
+  margin-right: 100px;
+  font-size: 30px;
+  border-bottom: 2px solid red;
+  cursor: pointer;
+}
+
+.navButtons {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px 0 0;
+}
+
+.logo-img {
+  height: 60px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.profile-icon {
+  padding-left: 10px;
+  height: 18px;
+}
+
+.cart-icon {
+  padding-left: 10px;
+  height: 35px;
+}
+
+.home-icon {
+  height: 20px;
+}
+
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuItem {
+  margin-right: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+  color: rgb(216, 226, 235);
+  font-weight: 400;
+}
+
+
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.featureTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.featureImg {
+  height: 50px;
+  width: 50px;
+}
+
+.featureDesc {
+  color: gray;
+  width: 50%;
+  height: 100px;
+}
+
+.product {
+  height: 110vh;
+  background: url('/public/productBG.jpg');
+  background-size: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+  position: relative;
+}
+
+.productImg {
+  background-color: #b4b4b4;
+  position: absolute;
+  width: 40%;
+  margin-top: 100px;
+  margin-left: 10%;
+  border-radius: 5%;
+  cursor:zoom-in;
+}
+
+.productDetails {
+  position: absolute;
+  top: 1%;
+  right: 10%;
+  width: 30%;
+  padding: 50px;
+}
+
+.productTitle {
+  font-size: 75px;
+  font-weight: 900;
+}
+
+.productDesc {
+  font-size: 24px;
+  color: gray;
+}
+
+.colors,.sizes {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.color {
+ width: 32px;
+ height: 32px;
+ border-radius: 16px;
+ background-color: #111;
+ margin-right: 10px;
+ cursor: pointer;
+}
+
+.color:nth-child(2) {
+  background-color: navy;
+}
+
+.color:nth-child(3) {
+  background-color: olive;
+}
+
+.size {
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.size:nth-child(3) {
+  background-color: rgb(161, 161, 161);
+  color: beige;
+  cursor:not-allowed;
+  border: 1px solid grey;
+}
+
+.productButton {
+  font-family: "Lato", sans-serif;
+  float:inherit;
+  padding: 10px 20px;
+  background-color: #111;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 38px;
+  border-radius: 5px;
+}
+
+.productButton:hover {
+  background-color: white;
+  color: black;
+} 
+
+.shoe2product {
+  height: 60%;
+  width: auto;
+  padding: 20px;
+}
+
+.shoe3product {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+footer {
+  display: flex;
+}
+
+.footerLeft{
+  flex:2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.footerRight {
+  flex:1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: #fff;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.fIcons {
+  display:flex;
+}
+
+.fIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* profile page */
+
+.profileContainer {
+  height: 73vh;
+  position: relative;
+  background: url("/public/productBG.jpg");
+  background-size: 100%;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%);
+}
+
+.profileTitle {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+.infoContainer{
+  padding: 30px;
+  align-self: center;
+  width: 20vw;
+  border: 4px;
+  box-shadow: 20px #111;
+  border-radius: 10px;
+  background-color: #dddddd;
+}
+
+
+
+.infoWrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoList {
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoItems {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 400;
+  color: #585858;
+}
